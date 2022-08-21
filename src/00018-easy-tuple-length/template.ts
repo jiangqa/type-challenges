@@ -1,1 +1,1 @@
-type Length<T extends readonly any[]> = number
+type Length<T extends readonly any[]> = T['length']
