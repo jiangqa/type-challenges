@@ -1,2 +1,2 @@
 //ts-ignore
-type First<T extends any[]> = T extends [infer R,...infer O] ? R : never
+type First<T extends any[]> = T extends [infer R,...any] ? R : never
